@@ -212,7 +212,7 @@
     $("#submit-form").submit((e)=>{
         e.preventDefault()
         $.ajax({
-            url:"https://script.google.com/macros/s/AKfycbzERXMWUH6adfr137wKohfiN7cFZ9YX-zaQ4iq0-qje4sadpQCQja3jlpUW2Wr9Jcw1og/exec",
+            url:"https://script.google.com/macros/s/AKfycbz52-yihOpnmGYd2RVKXC0hz5E06Ssh3vbORd2P9dVWhwH09WcU7DALuX8S1bj8shr1/exec",
             data:$("#submit-form").serialize(),
             method:"post",
             success:function (response){
